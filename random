@@ -1,6 +1,8 @@
 import random
 import sys
 
+#It can be used with or without arguments. If used with arguments, first write the number of games you want to play, 
+#and second the number to be accumulated.
 
 all_rolls = []
 if len(sys.argv) > 1:
@@ -20,7 +22,6 @@ def roll_dice(accum_nr):
         accum_nr = accum_nr - roll
         rolls.append(roll)
     all_rolls.append(rolls)
-
 
 def verify_dice():
     for element in all_rolls:
