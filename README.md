@@ -15,9 +15,6 @@ The program then prints how many games the dice was rolled `4` times, `5` times,
 
 ##Usage
 
-* user dialog
-
-Run program with no arguments and follow dialog.
 
 * cli args
 
