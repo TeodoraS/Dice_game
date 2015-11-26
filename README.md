@@ -18,4 +18,4 @@ The program then prints how many games the dice was rolled `4` times, `5` times,
 
 * cli args
 
-`python.exe dice-roll.py <no-of-games> <no-to-accumulate>`
+`python.exe dice-roll.py -g <no-of-games> -a <no-to-accumulate>`
